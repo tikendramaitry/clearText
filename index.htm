@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clear default text of inputs and textarea | clearText jQuery Plugin</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.clearText.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.clear-it').clearText();
+});
+</script>
+</head>
+<body>
+
+<div class="wrapper">
+
+<a href="http://www.tiks.in/?utm_ref=git"><img src="http://www.tiks.in/wp-content/uploads/2010/12/logo.png" alt="http://www.tiks.in" /></a>
+
+<h1>clearText jQuery Plugin</h1>
+
+<div id="contact-wrap">
+<form action="#" method="post" name="contact">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" class="clear-it" value="Enter name.." ><br/>
+
+<label for="email">Email:</label>
+<input type="text" name="email" id="email" class="clear-it" value="Enter email.." ><br/>
+
+<label for="subject">Subject:</label>
+<input type="text" name="subject" id="subject" class="clear-it" value="Enter subject.." ><br/>
+
+<label for="message">Message:</label>
+<textarea cols="15" rows="8" id="message" class="clear-it" >Enter message..</textarea><br/>
+
+
+<div class="clear"></div>
+<input type="submit" name="submit" value="submit" />
+</form>
+</div>
+<div class="clear"></div>
+
+<div class="bak-tut">
+Go back to article <a title="Permanent Link: Automatically clear/restore form field's default values using jQuery" rel="bookmark" href="http://www.tiks.in/tutorials/html/automatically-clearrestore-form-fields-default-values-using-jquery/?utm_ref=git">
+Permanent Link: Automatically clear/restore form field's default values using jQuery</a>
+</div>
+
+
+
+<!--footer-->
+<span class="copyright">
+			&copy; Copyright <a href="http://www.tiks.in">Tikendra Maitry</a> - 
+			Design by <a title="TechInfini Solutions Pvt. Ltd." href="http://www.techinfini.com/?utm_ref=git">TechInfini Solutions</a>
+</span>
+<!--footer-->
+
+<div class="clear"></div>
+</div>
+</body>
+</html>

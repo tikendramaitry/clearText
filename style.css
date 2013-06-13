@@ -1,0 +1,11 @@
+body{background-color: #0C6396;font-family: Arial,Helevtica,Verdana,san-serif; }
+.clear{clear:both;}
+a{text-decoration:none;color:#005798; }
+a:hover{color:#8F8F8F;}
+.copyright{float: left;padding-left: 3px;color: #000;font-family: Arial,Helevtica,Verdana,san-serif;font-size: 11px;line-height: 16px;margin-top:20px; }
+h1{font-family: georgia;font-size: 20px;color: #666666; }
+.bak-tut{ text-align:center; margin-top:45px; }
+.wrapper{ background-color: #FFFFFF; border: 1px solid #ECE8DB; padding: 7px 17px 16px; margin: 25px auto; width:960px; text-align: center; border-radius: 5px 5px 5px 5px; box-shadow: 3px 0 8px #000000; }
+#contact-wrap{ margin: auto; width: 250px; }
+#contact-wrap label{ float: left; }
+#contact-wrap input, #contact-wrap textarea{ float: right; }
